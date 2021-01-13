@@ -12,8 +12,7 @@ I start by bringing in the CSV data into Python program. I then parse the data u
 All of the steps seen below are under the assumption you are using a Windows device. If you happen to be using another operating system, be sure to find the commands specific to you.
 
 #### Get the Data:
-1. Get the data csv from
-[kaggel.com](https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv)
+1. Get the CSV data from [kaggel.com](https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv)
 
 2. Add it to the data folder
 
@@ -28,7 +27,7 @@ All of the steps seen below are under the assumption you are using a Windows dev
     .\venv\Scripts\Activate.ps1
     ```
 
-3. Install Req:
+3. Install Requirements:
     ```
     python -m pip freeze > requirements.txt
     python -m pip install -r requirements.txt
