@@ -1,4 +1,4 @@
-# YouTube Data
+# YouTube Data Visualization
 
 Shows data from trending YouTube videos in the US with the ratio between likes and dislikes (likes minus dislikes) being on the x-axis, and the number of views for the video on the y-axis. There is a total of 6351 videos in which this data was drawn from.
 
@@ -20,29 +20,29 @@ All of the steps seen below are under the assumption you are using a Windows dev
 #### Install Dependencies (from the main repository folder):
 1. Make a Virtual Environment:
     ```
-    - [ ] python -m venv venv
+    python -m venv venv
     ```
 
 2. Activate it:
     ```
-    - [ ] .\venv\Scripts\Activate.ps1
+    .\venv\Scripts\Activate.ps1
     ```
 
 3. Install Req:
     ```
-    - [ ] python -m pip freeze > requirements.txt
-    - [ ] python -m pip install -r requirements.txt
+    python -m pip freeze > requirements.txt
+    python -m pip install -r requirements.txt
     ```
 
-4. If Viewing on Jupyter Lab
+4. If Viewing on Jupyter Lab:
     - Before Running:
     ```
-    - [ ] python -m ipykernel install --user --name=youtube_data_visualization
+    python -m ipykernel install --user --name=youtube_data_visualization
     ```
 
     - To Run:
     ```    
-    - [ ] jupyter lab
+    jupyter lab
     ```  
    
 ## Authors
