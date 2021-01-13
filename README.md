@@ -19,31 +19,31 @@ All of the steps seen below are under the assumption you are using a Windows dev
 
 #### Install Dependencies (from the main repository folder):
 1. Make a Virtual Environment:
-```
-    python -m venv venv
-```
+    ```
+    - [ ] python -m venv venv
+    ```
 
 2. Activate it:
-```
-    .\venv\Scripts\Activate.ps1
-```
+    ```
+    - [ ] .\venv\Scripts\Activate.ps1
+    ```
 
 3. Install Req:
-```
-    python -m pip freeze > requirements.txt
-    python -m pip install -r requirements.txt
-```
+    ```
+    - [ ] python -m pip freeze > requirements.txt
+    - [ ] python -m pip install -r requirements.txt
+    ```
 
-4. (If Viewing on jupyter lab)
-    Before Running:
-```
-    python -m ipykernel install --user --name=youtube_data_visualization
-```
+4. If Viewing on Jupyter Lab
+    - Before Running:
+    ```
+    - [ ] python -m ipykernel install --user --name=youtube_data_visualization
+    ```
 
-    To Run:
-```    
-    jupyter lab
-```  
+    - To Run:
+    ```    
+    - [ ] jupyter lab
+    ```  
    
 ## Authors
 
